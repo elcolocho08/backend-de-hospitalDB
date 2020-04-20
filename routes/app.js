@@ -5,7 +5,7 @@ var app = express();
 
 app.get('/', (req, res, next) => {
 
-    res.status(403).json({
+    res.status(200).json({
         ok: true,
         mensaje: 'Hice otro cambio al estatus 403'
     });
